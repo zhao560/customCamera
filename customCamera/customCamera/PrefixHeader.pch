@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  customCamera
+//
+//  Created by root on 2018/11/9.
+//  Copyright © 2018年 凉凉. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+ZZExtension.h"
+#import "UIColor+ZZExtension.h"
+#import "UILabel+ZZExtension.h"
+#import "UIButton+ZZExtension.h"
+#import <Masonry.h>
+
+// 屏幕尺寸定义
+#define KScreenBounds [UIScreen mainScreen].bounds
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+
+
+#define WeakSelf __weak typeof(self) weakSelf = self
+
+#endif /* PrefixHeader_pch */

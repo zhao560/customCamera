@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3A1D58DFF5D4DD718B952C /* libPods-customCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3125E7EE629254E515833E8E /* libPods-customCamera.a */; };
+		DCEF2C6B219558E00053DC03 /* UIView+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEF2C6A219558E00053DC03 /* UIView+ZZExtension.m */; };
+		DCEF2C6E219559300053DC03 /* UIColor+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEF2C6C219559300053DC03 /* UIColor+ZZExtension.m */; };
+		DCEF2C73219559D60053DC03 /* UIButton+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEF2C71219559D60053DC03 /* UIButton+ZZExtension.m */; };
+		DCEF2C74219559D60053DC03 /* UILabel+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEF2C72219559D60053DC03 /* UILabel+ZZExtension.m */; };
+		DCF4BE112195562E00707507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4BE102195562E00707507 /* AppDelegate.m */; };
+		DCF4BE142195562E00707507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4BE132195562E00707507 /* ViewController.m */; };
+		DCF4BE172195562E00707507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF4BE152195562E00707507 /* Main.storyboard */; };
+		DCF4BE192195562F00707507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF4BE182195562F00707507 /* Assets.xcassets */; };
+		DCF4BE1C2195562F00707507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF4BE1A2195562F00707507 /* LaunchScreen.storyboard */; };
+		DCF4BE1F2195562F00707507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4BE1E2195562F00707507 /* main.m */; };
+		DCF4BE27219557E100707507 /* ZZCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4BE26219557E100707507 /* ZZCustomCameraViewController.m */; };
+		DCF4BE2A2195580F00707507 /* ZZCustomCameraControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4BE282195580F00707507 /* ZZCustomCameraControlView.m */; };
+		DCF4BE322195587B00707507 /* ZZCutCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4BE2C2195587B00707507 /* ZZCutCircle.m */; };
+		DCF4BE332195587B00707507 /* ZZCutGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4BE2F2195587B00707507 /* ZZCutGridLayer.m */; };
+		DCF4BE342195587B00707507 /* ZZImageEditTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4BE312195587B00707507 /* ZZImageEditTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0622D0D240666D6E09794744 /* Pods-customCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-customCamera/Pods-customCamera.release.xcconfig"; sourceTree = "<group>"; };
+		3125E7EE629254E515833E8E /* libPods-customCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-customCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8729855A3A5EA5C5785E203E /* Pods-customCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-customCamera/Pods-customCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		DCEF2C69219558E00053DC03 /* UIView+ZZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZExtension.h"; sourceTree = "<group>"; };
+		DCEF2C6A219558E00053DC03 /* UIView+ZZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZExtension.m"; sourceTree = "<group>"; };
+		DCEF2C6C219559300053DC03 /* UIColor+ZZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZZExtension.m"; sourceTree = "<group>"; };
+		DCEF2C6D219559300053DC03 /* UIColor+ZZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZZExtension.h"; sourceTree = "<group>"; };
+		DCEF2C6F219559D60053DC03 /* UIButton+ZZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZZExtension.h"; sourceTree = "<group>"; };
+		DCEF2C70219559D60053DC03 /* UILabel+ZZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZZExtension.h"; sourceTree = "<group>"; };
+		DCEF2C71219559D60053DC03 /* UIButton+ZZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZZExtension.m"; sourceTree = "<group>"; };
+		DCEF2C72219559D60053DC03 /* UILabel+ZZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZZExtension.m"; sourceTree = "<group>"; };
+		DCEF2C7521955A0D0053DC03 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DCF4BE0C2195562E00707507 /* customCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF4BE0F2195562E00707507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCF4BE102195562E00707507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCF4BE122195562E00707507 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCF4BE132195562E00707507 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCF4BE162195562E00707507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCF4BE182195562F00707507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCF4BE1B2195562F00707507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCF4BE1D2195562F00707507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF4BE1E2195562F00707507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCF4BE25219557E100707507 /* ZZCustomCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCustomCameraViewController.h; sourceTree = "<group>"; };
+		DCF4BE26219557E100707507 /* ZZCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCustomCameraViewController.m; sourceTree = "<group>"; };
+		DCF4BE282195580F00707507 /* ZZCustomCameraControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCustomCameraControlView.m; sourceTree = "<group>"; };
+		DCF4BE292195580F00707507 /* ZZCustomCameraControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCustomCameraControlView.h; sourceTree = "<group>"; };
+		DCF4BE2C2195587B00707507 /* ZZCutCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCutCircle.m; sourceTree = "<group>"; };
+		DCF4BE2D2195587B00707507 /* ZZCutGridLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCutGridLayer.h; sourceTree = "<group>"; };
+		DCF4BE2E2195587B00707507 /* ZZImageEditTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZImageEditTool.h; sourceTree = "<group>"; };
+		DCF4BE2F2195587B00707507 /* ZZCutGridLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCutGridLayer.m; sourceTree = "<group>"; };
+		DCF4BE302195587B00707507 /* ZZCutCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCutCircle.h; sourceTree = "<group>"; };
+		DCF4BE312195587B00707507 /* ZZImageEditTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZImageEditTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF4BE092195562E00707507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3A1D58DFF5D4DD718B952C /* libPods-customCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27954F7786358F9389D56729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8729855A3A5EA5C5785E203E /* Pods-customCamera.debug.xcconfig */,
+				0622D0D240666D6E09794744 /* Pods-customCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61DB3CB3CD1B10CCB805C6B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3125E7EE629254E515833E8E /* libPods-customCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCEF2C68219558E00053DC03 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF2C6D219559300053DC03 /* UIColor+ZZExtension.h */,
+				DCEF2C6C219559300053DC03 /* UIColor+ZZExtension.m */,
+				DCEF2C69219558E00053DC03 /* UIView+ZZExtension.h */,
+				DCEF2C6A219558E00053DC03 /* UIView+ZZExtension.m */,
+				DCEF2C6F219559D60053DC03 /* UIButton+ZZExtension.h */,
+				DCEF2C71219559D60053DC03 /* UIButton+ZZExtension.m */,
+				DCEF2C70219559D60053DC03 /* UILabel+ZZExtension.h */,
+				DCEF2C72219559D60053DC03 /* UILabel+ZZExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DCF4BE032195562E00707507 = {
+			isa = PBXGroup;
+			children = (
+				DCF4BE0E2195562E00707507 /* customCamera */,
+				DCF4BE0D2195562E00707507 /* Products */,
+				27954F7786358F9389D56729 /* Pods */,
+				61DB3CB3CD1B10CCB805C6B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF4BE0D2195562E00707507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF4BE0C2195562E00707507 /* customCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF4BE0E2195562E00707507 /* customCamera */ = {
+			isa = PBXGroup;
+			children = (
+				DCF4BE0F2195562E00707507 /* AppDelegate.h */,
+				DCF4BE102195562E00707507 /* AppDelegate.m */,
+				DCF4BE122195562E00707507 /* ViewController.h */,
+				DCF4BE132195562E00707507 /* ViewController.m */,
+				DCF4BE25219557E100707507 /* ZZCustomCameraViewController.h */,
+				DCF4BE26219557E100707507 /* ZZCustomCameraViewController.m */,
+				DCF4BE292195580F00707507 /* ZZCustomCameraControlView.h */,
+				DCF4BE282195580F00707507 /* ZZCustomCameraControlView.m */,
+				DCEF2C7521955A0D0053DC03 /* PrefixHeader.pch */,
+				DCEF2C68219558E00053DC03 /* Category */,
+				DCF4BE2B2195587B00707507 /* 图片裁剪 */,
+				DCF4BE152195562E00707507 /* Main.storyboard */,
+				DCF4BE182195562F00707507 /* Assets.xcassets */,
+				DCF4BE1A2195562F00707507 /* LaunchScreen.storyboard */,
+				DCF4BE1D2195562F00707507 /* Info.plist */,
+				DCF4BE1E2195562F00707507 /* main.m */,
+			);
+			path = customCamera;
+			sourceTree = "<group>";
+		};
+		DCF4BE2B2195587B00707507 /* 图片裁剪 */ = {
+			isa = PBXGroup;
+			children = (
+				DCF4BE2D2195587B00707507 /* ZZCutGridLayer.h */,
+				DCF4BE2F2195587B00707507 /* ZZCutGridLayer.m */,
+				DCF4BE302195587B00707507 /* ZZCutCircle.h */,
+				DCF4BE2C2195587B00707507 /* ZZCutCircle.m */,
+				DCF4BE2E2195587B00707507 /* ZZImageEditTool.h */,
+				DCF4BE312195587B00707507 /* ZZImageEditTool.m */,
+			);
+			path = "图片裁剪";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF4BE0B2195562E00707507 /* customCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF4BE222195562F00707507 /* Build configuration list for PBXNativeTarget "customCamera" */;
+			buildPhases = (
+				89C8FCF8F3E0B995ACD824D9 /* [CP] Check Pods Manifest.lock */,
+				DCF4BE082195562E00707507 /* Sources */,
+				DCF4BE092195562E00707507 /* Frameworks */,
+				DCF4BE0A2195562E00707507 /* Resources */,
+				1B176213ECECC0FE606EA9A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = customCamera;
+			productName = customCamera;
+			productReference = DCF4BE0C2195562E00707507 /* customCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCF4BE042195562E00707507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "凉凉";
+				TargetAttributes = {
+					DCF4BE0B2195562E00707507 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DCF4BE072195562E00707507 /* Build configuration list for PBXProject "customCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCF4BE032195562E00707507;
+			productRefGroup = DCF4BE0D2195562E00707507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF4BE0B2195562E00707507 /* customCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF4BE0A2195562E00707507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF4BE1C2195562F00707507 /* LaunchScreen.storyboard in Resources */,
+				DCF4BE192195562F00707507 /* Assets.xcassets in Resources */,
+				DCF4BE172195562E00707507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B176213ECECC0FE606EA9A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-customCamera/Pods-customCamera-resources.sh",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customCamera/Pods-customCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89C8FCF8F3E0B995ACD824D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-customCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF4BE082195562E00707507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF4BE322195587B00707507 /* ZZCutCircle.m in Sources */,
+				DCF4BE332195587B00707507 /* ZZCutGridLayer.m in Sources */,
+				DCF4BE27219557E100707507 /* ZZCustomCameraViewController.m in Sources */,
+				DCEF2C6E219559300053DC03 /* UIColor+ZZExtension.m in Sources */,
+				DCEF2C6B219558E00053DC03 /* UIView+ZZExtension.m in Sources */,
+				DCF4BE142195562E00707507 /* ViewController.m in Sources */,
+				DCF4BE1F2195562F00707507 /* main.m in Sources */,
+				DCF4BE2A2195580F00707507 /* ZZCustomCameraControlView.m in Sources */,
+				DCF4BE112195562E00707507 /* AppDelegate.m in Sources */,
+				DCF4BE342195587B00707507 /* ZZImageEditTool.m in Sources */,
+				DCEF2C74219559D60053DC03 /* UILabel+ZZExtension.m in Sources */,
+				DCEF2C73219559D60053DC03 /* UIButton+ZZExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCF4BE152195562E00707507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF4BE162195562E00707507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCF4BE1A2195562F00707507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF4BE1B2195562F00707507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCF4BE202195562F00707507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCF4BE212195562F00707507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF4BE232195562F00707507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8729855A3A5EA5C5785E203E /* Pods-customCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NY7K4BJCH;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/customCamera/PrefixHeader.pch";
+				INFOPLIST_FILE = customCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talent.jiwen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCF4BE242195562F00707507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0622D0D240666D6E09794744 /* Pods-customCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NY7K4BJCH;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/customCamera/PrefixHeader.pch";
+				INFOPLIST_FILE = customCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talent.jiwen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCF4BE072195562E00707507 /* Build configuration list for PBXProject "customCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF4BE202195562F00707507 /* Debug */,
+				DCF4BE212195562F00707507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF4BE222195562F00707507 /* Build configuration list for PBXNativeTarget "customCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF4BE232195562F00707507 /* Debug */,
+				DCF4BE242195562F00707507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCF4BE042195562E00707507 /* Project object */;
+}
