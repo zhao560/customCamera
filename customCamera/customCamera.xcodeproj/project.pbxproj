@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A3A1D58DFF5D4DD718B952C /* libPods-customCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3125E7EE629254E515833E8E /* libPods-customCamera.a */; };
+		DCA8A9E321AD5F2B00A87EB6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA8A9E221AD5F2B00A87EB6 /* AVFoundation.framework */; };
 		DCEF2C6B219558E00053DC03 /* UIView+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEF2C6A219558E00053DC03 /* UIView+ZZExtension.m */; };
 		DCEF2C6E219559300053DC03 /* UIColor+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEF2C6C219559300053DC03 /* UIColor+ZZExtension.m */; };
 		DCEF2C73219559D60053DC03 /* UIButton+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEF2C71219559D60053DC03 /* UIButton+ZZExtension.m */; };
@@ -29,6 +30,7 @@
 		0622D0D240666D6E09794744 /* Pods-customCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-customCamera/Pods-customCamera.release.xcconfig"; sourceTree = "<group>"; };
 		3125E7EE629254E515833E8E /* libPods-customCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-customCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8729855A3A5EA5C5785E203E /* Pods-customCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-customCamera/Pods-customCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA8A9E221AD5F2B00A87EB6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DCEF2C69219558E00053DC03 /* UIView+ZZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZExtension.h"; sourceTree = "<group>"; };
 		DCEF2C6A219558E00053DC03 /* UIView+ZZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZExtension.m"; sourceTree = "<group>"; };
 		DCEF2C6C219559300053DC03 /* UIColor+ZZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZZExtension.m"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA8A9E321AD5F2B00A87EB6 /* AVFoundation.framework in Frameworks */,
 				3A3A1D58DFF5D4DD718B952C /* libPods-customCamera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +87,7 @@
 		61DB3CB3CD1B10CCB805C6B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCA8A9E221AD5F2B00A87EB6 /* AVFoundation.framework */,
 				3125E7EE629254E515833E8E /* libPods-customCamera.a */,
 			);
 			name = Frameworks;

@@ -42,19 +42,29 @@
 {
     if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
         !block ? : block(NO);
+        return;
     }
+    
     AVAuthorizationStatus status = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
     if (status == AVAuthorizationStatusRestricted ||
         status == AVAuthorizationStatusDenied) {
         !block ? : block(NO);
-    }else if (status == AVAuthorizationStatusNotDetermined) {
-        [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {//相机权限
-            !block ? : block(granted);
-        }];
-    }else {
-        !block ? : block(YES);
+        return;
     }
+    
+    if (status == AVAuthorizationStatusNotDetermined) {
+        [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
+            //相机权限
+            dispatch_async(dispatch_get_main_queue(), ^{
+                !block ? : block(granted);
+            });
+        }];
+        return;
+    }
+    
+    !block ? : block(YES);
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
